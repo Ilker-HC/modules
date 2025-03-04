@@ -7,6 +7,6 @@ This configuration includes a load balancer that can be connected to over port 8
 
 ## Quick start
 
-Terraform modules are not meant to be deployed directly. Instead, you should be including them in other Terraform 
+Terraform modules are not meant to be deployed directly. Instead, include them in other Terraform 
 configurations. See [stage/services/webserver-cluster](../../../stage/services/webserver-cluster) and
 [prod/services/webserver-cluster](../../../prod/services/webserver-cluster) for examples.
