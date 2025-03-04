@@ -1,13 +1,9 @@
-# Web server cluster module example
+upload of the web server cluster module example from Terraform-up-and-running-V3.
 
-This folder contains example [Terraform](https://www.terraform.io/) configuration that define a module for deploying a 
-cluster of web servers (using [EC2](https://aws.amazon.com/ec2/) and [Auto 
-Scaling](https://aws.amazon.com/autoscaling/)) and a load balancer (using 
-[ELB](https://aws.amazon.com/elasticloadbalancing/)) in an [Amazon Web Services (AWS) account](http://aws.amazon.com/). 
-The load balancer listens on port 80 and returns the text "Hello, World" for the `/` URL.
+# What does this module do
 
-For more info, please see Chapter 4, "How to Create Reusable Infrastructure with Terraform Modules", of 
-*[Terraform: Up and Running](http://www.terraformupandrunning.com)*.
+This module contains a configuration that allows to deploy a cluster of web servers on Amazon AWS.
+This configuration includes a load balancer that can be connected to over port 80 which will return a text page stating: "Hello, World" .
 
 ## Quick start
 
